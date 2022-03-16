@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/strided-base-unary-addon-dispatch",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Dispatch to a native add-on applying a unary function to an input strided array.",
   "license": "Apache-2.0",
   "author": {
