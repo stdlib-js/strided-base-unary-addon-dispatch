@@ -34,30 +34,20 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/strided-base-unary-addon-dispatch
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var dispatch = require( '@stdlib/strided-base-unary-addon-dispatch' );
+import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary-addon-dispatch@deno/mod.js';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary-addon-dispatch@deno/mod.js';
 ```
 
 #### dispatch( addon, fallback )
@@ -233,8 +223,8 @@ where
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var Float64Array = require( '@stdlib/array-float64' );
-var dispatch = require( '@stdlib/strided-base-unary-addon-dispatch' );
+import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
+import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary-addon-dispatch@deno/mod.js';
 
 function addon( N, dtypeX, x, strideX, dtypeY, y, strideY ) {
     console.log( x );
@@ -299,7 +289,7 @@ f( 2, 'generic', x, 1, 2, 'generic', y, 1, 2 );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
