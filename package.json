@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/strided-base-unary-addon-dispatch",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Dispatch to a native add-on applying a unary function to an input strided array.",
   "license": "Apache-2.0",
   "author": {
@@ -37,27 +37,27 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-function": "^0.0.8",
-    "@stdlib/assert-is-nonnegative-integer": "^0.0.7",
-    "@stdlib/assert-is-typed-array-like": "^0.0.8",
-    "@stdlib/strided-base-dtype-resolve-enum": "^0.0.2",
-    "@stdlib/strided-base-min-view-buffer-index": "^0.0.1",
-    "@stdlib/strided-base-offset-view": "^0.0.1",
-    "@stdlib/strided-base-reinterpret-complex128": "^0.0.2",
-    "@stdlib/strided-base-reinterpret-complex64": "^0.0.2",
-    "@stdlib/string-format": "^0.0.3",
-    "@stdlib/types": "^0.0.14",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.7"
+    "@stdlib/assert-is-function": "^0.1.0",
+    "@stdlib/assert-is-nonnegative-integer": "^0.1.0",
+    "@stdlib/assert-is-typed-array-like": "^0.1.0",
+    "@stdlib/strided-base-dtype-resolve-enum": "^0.1.0",
+    "@stdlib/strided-base-min-view-buffer-index": "^0.1.0",
+    "@stdlib/strided-base-offset-view": "^0.1.0",
+    "@stdlib/strided-base-reinterpret-complex128": "^0.1.0",
+    "@stdlib/strided-base-reinterpret-complex64": "^0.1.0",
+    "@stdlib/string-format": "^0.1.0",
+    "@stdlib/types": "^0.1.0",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/array-complex128": "^0.0.6",
     "@stdlib/array-complex64": "^0.0.6",
-    "@stdlib/array-float64": "^0.0.6",
-    "@stdlib/assert-has-own-property": "^0.0.7",
-    "@stdlib/assert-is-float32array": "^0.0.8",
-    "@stdlib/assert-is-float64array": "^0.0.8",
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/utils-noop": "^0.0.14",
+    "@stdlib/array-float64": "^0.1.0",
+    "@stdlib/assert-has-own-property": "^0.1.0",
+    "@stdlib/assert-is-float32array": "^0.1.0",
+    "@stdlib/assert-is-float64array": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/utils-noop": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
