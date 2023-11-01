@@ -43,8 +43,8 @@
     "@stdlib/strided-base-dtype-resolve-enum": "^0.1.0",
     "@stdlib/strided-base-min-view-buffer-index": "^0.1.1",
     "@stdlib/strided-base-offset-view": "^0.1.1",
-    "@stdlib/strided-base-reinterpret-complex128": "^0.1.0",
-    "@stdlib/strided-base-reinterpret-complex64": "^0.1.0",
+    "@stdlib/strided-base-reinterpret-complex128": "^0.1.1",
+    "@stdlib/strided-base-reinterpret-complex64": "^0.1.1",
     "@stdlib/string-format": "^0.1.1",
     "@stdlib/types": "^0.1.0",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1"
@@ -52,7 +52,7 @@
   "devDependencies": {
     "@stdlib/array-complex128": "^0.1.0",
     "@stdlib/array-complex64": "^0.1.0",
-    "@stdlib/array-float64": "^0.1.0",
+    "@stdlib/array-float64": "^0.1.1",
     "@stdlib/assert-has-own-property": "^0.1.1",
     "@stdlib/assert-is-float32array": "^0.1.1",
     "@stdlib/assert-is-float64array": "^0.1.1",
