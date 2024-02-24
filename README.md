@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-dispatch = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary-addon-dispatch@umd/browser.js' )
+dispatch = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary-addon-dispatch@v0.2.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var dispatch = require( 'path/to/vendor/umd/strided-base-unary-addon-dispatch/in
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary-addon-dispatch@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary-addon-dispatch@v0.2.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -256,7 +256,7 @@ where
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary-addon-dispatch@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary-addon-dispatch@v0.2.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
