@@ -41,7 +41,7 @@
     "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
     "@stdlib/assert-is-typed-array-like": "^0.2.2",
     "@stdlib/strided-base-dtype-resolve-enum": "^0.2.2",
-    "@stdlib/strided-base-min-view-buffer-index": "^0.2.2",
+    "@stdlib/strided-base-min-view-buffer-index": "^0.3.0",
     "@stdlib/strided-base-offset-view": "^0.2.2",
     "@stdlib/strided-base-reinterpret-boolean": "^0.0.2",
     "@stdlib/strided-base-reinterpret-complex128": "^0.2.2",
@@ -91,7 +91,6 @@
     "add-on",
     "native"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
